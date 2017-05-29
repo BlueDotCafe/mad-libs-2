@@ -2,7 +2,8 @@ $(document).ready(function() {
   $("#blanks form").submit(function(event) {
     var person1Input = $("input#person1").val();
     var person2Input = $("input#person2").val();
-    var animalInput= $("input#animal").val();
+    var animalInput = $("input#animal").val();
+    var petNameInput = $("input#petName").val();
     var exclamation1Input = $("input#exclamation1").val();
     var exclamation2Input = $("input#exclamation2").val();
     var verb1Input = $("input#verb1").val();
@@ -15,6 +16,7 @@ $(document).ready(function() {
     $(".person1").append(person1Input);
     $(".person2").append(person2Input);
     $(".animal").append(animalInput);
+    $(".petName").append(petNameInput);
     $(".exclamation1").append(exclamation1Input);
     $(".exclamation2").append(exclamation2Input);
     $(".verb1").append(verb1Input);

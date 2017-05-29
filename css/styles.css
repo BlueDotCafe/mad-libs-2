@@ -37,9 +37,13 @@
   margin-top: 50px;
 }
 
+span {
+  color: #63abcc;
+}
+
 #blanks {
   background-color: #eee;
-  padding: 90px;
+  padding: 98px;
   margin-left: 180px;
   margin-right: 180px;
   margin-top: 40px;
@@ -60,4 +64,7 @@ label {
   background-color: #a9bfef;
   font-family: sans-serif;
   font-weight: normal;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }

@@ -59,6 +59,10 @@ label {
   font-size: 13pt;
 }
 
+input {
+  background-color: #dee7fc;
+}
+
 #button {
   color:  rgba(41, 52, 80, 0.91);
   background-color: #a9bfef;
